@@ -1,20 +1,19 @@
 {
   "name": "news-proxy-server",
   "version": "1.0.0",
+  "description": "Backend for News App with AI Summarization",
   "main": "index.js",
-  "dependencies": {
-    "axios": "^1.10.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.6.1",
-    "express": "^4.21.2",
-    "express-rate-limit": "^7.5.1"
-  },
   "scripts": {
     "start": "node index.js"
   },
-  "description": "",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.4"
+  },
+  "engines": {
+    "node": "18.x"
+  }
 }
